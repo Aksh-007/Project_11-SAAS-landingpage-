@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --primary: #5ba0e0;
+    --secondary: #542795;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+.background-color{
+    height: 100vh;
+    background-image: url("../assets/bg.svg");
+}
+/* ================================================ navbar section============================== */
+.nav-logo{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height:20vh ;
+}
+.logo img{
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.item{
+    flex-grow: 0.6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 63px;
+    list-style-type: none;
+    color: var(--white);
+    font-weight: 100;
+}
+.nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.nav-button button{
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:var(--primary);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-items:hover{
+    color: var( --primary);
+    font-size:20px;
+    transition: 0.3ms;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+
+/* ===================================================live demo section ================================ */
+.try-live-demo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+}
+.try-live-demo-left{
+ height: 75vh;
+ width: 500px;
+}
+
+.try-live-demo-left h2{
+ font-size: 3.5rem;
+ line-height: 100%;
+ color: var(--white);
+ margin-top: 50px;
+}
+
+.try-live-demo-left p{
+    margin-top: 50px;
+    color: var(--white);
+}
+
+.try-live-button{
+    margin-top: 50px;
+    padding: 15px 35px;
+    border-radius: 6px;
+    border: none;
+    color: var(--white);
+    background-color:var(--primary);
+    cursor: pointer;
+}
+
+
+.try-live-demo-right{
+    height: 75vh;
+    width: 600px;
+}
+
+.try-live-demo-right-image{
+    height: 75vh;
+    width: 650px;
+    margin-top: -20px;
+}
+
+/* ======================== operating-system-container=================================================== */
+
+.operating-system-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.operating-system-left{
+    height: 75vh;
+    width: 600px;
+    margin-top: -10px;
+    margin-right: 40px;
+}
+
+.opearting-system-right{
+    height: 65vh;
+    width: 400px;
+    margin-top: -50px;
+    margin-right: 80px;
+
+}
+
+.opearting-system-right h1{
+    padding: 40px 10px;
+
+}
+.operating-item {
+    list-style-type: none;
+}
+.operating-list-items h3,p{
+    padding: 10px 10px;
+}
+
+/* =================================================feature for customer section started============== */
+
+
+.feature-container{
+    height: 80vh;
+    width: 100%;
+   
+    
+}
+
+.feature-header {
+    text-align: center;
+    padding: 40px 40px;
+    font-size: 1.5rem;
+}
+
+.card-conainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.card{
+    height: 40vh;
+    width: 220px;
+    border-radius: 20px;
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, .1);
+}
+
+.card-icon {
+    height: 25vh;
+}
+
+.icon{
+    width: 15vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245,56,6, .2);
+    margin: 40px auto 30px auto;
+    border-radius: 100px;
+}
+.icon img{
+    height: 8vh;
+    width: 8vh;
+    top: 55px;
+    left: 80px;
+}
+.card-content{
+    height: 14vh;
+    width: 220px;
+    position: relative;
+    border-radius: 20px;
+    top: 10px;
+}
+
+.card-content h4{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card-content p{
+    text-align: center;
+    font-size: 14px;
+}
+.card-content:hover{
+   background-color: var( --secondary);
+   color: var(--white);
+}
+
+
+
+
+
+
