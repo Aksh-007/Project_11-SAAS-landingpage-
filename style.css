@@ -222,6 +222,7 @@
 .card-content:hover{
    background-color: var( --secondary);
    color: var(--white);
+   cursor: pointer;
 }
 
 
