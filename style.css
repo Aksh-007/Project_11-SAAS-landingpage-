@@ -22,14 +22,12 @@
 /* ================================================ navbar section============================== */
 .nav-logo{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     height:20vh ;
 }
 .logo img{
-    width: 120px;
-    margin-top: 50px;
-    margin-left: 180px;
+    width: 7.5rem;
+    margin-top: 3.1rem;
+    margin-left: 15rem;
 }
 
 .item{
@@ -49,8 +47,8 @@
     margin-left: 60px;
 }
 .nav-button button{
-    padding: 15px 35px;
-    border-radius: 5px;
+    padding: 1rem 2.1rem;
+    border-radius: 0.3rem;
     border: none;
     color: white;
     background-color:var(--primary);
@@ -60,7 +58,7 @@
 
 .nav-items:hover{
     color: var( --primary);
-    font-size:20px;
+    font-size:1.2rem;
     transition: 0.3ms;
     cursor: pointer;
     /* text-decoration: underline; */
@@ -78,25 +76,25 @@
 }
 .try-live-demo-left{
  height: 75vh;
- width: 500px;
+ width: 31.2rem;
 }
 
 .try-live-demo-left h2{
  font-size: 3.5rem;
  line-height: 100%;
  color: var(--white);
- margin-top: 50px;
+ margin-top: 3.1rem;
 }
 
 .try-live-demo-left p{
-    margin-top: 50px;
+    margin-top: 3.1rem;
     color: var(--white);
 }
 
 .try-live-button{
-    margin-top: 50px;
-    padding: 15px 35px;
-    border-radius: 6px;
+    margin-top: 3.1rem;
+    padding: 1rem 2.1rem;
+    border-radius: 0.3rem;
     border: none;
     color: var(--white);
     background-color:var(--primary);
@@ -106,13 +104,13 @@
 
 .try-live-demo-right{
     height: 75vh;
-    width: 600px;
+    width: 37.5rem;
 }
 
 .try-live-demo-right-image{
     height: 75vh;
-    width: 650px;
-    margin-top: -20px;
+    width: 63.1rem;
+    margin-top: -1.2rem;
 }
 
 /* ======================== operating-system-container=================================================== */
@@ -123,33 +121,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .operating-system-left{
     height: 75vh;
-    width: 600px;
-    margin-top: -10px;
-    margin-right: 40px;
+    width: 37.5rem;
+    margin-top: -0.6rem;
+    margin-right: 2.5rem;
 }
 
 .opearting-system-right{
     height: 65vh;
-    width: 400px;
-    margin-top: -50px;
-    margin-right: 80px;
+    width: 25rem;
+    margin-top: -3.1rem;
+    margin-right: 5rem;
 
 }
 
 .opearting-system-right h1{
-    padding: 40px 10px;
+    padding: 2.5rem 0.6rem;
 
 }
 .operating-item {
     list-style-type: none;
 }
 .operating-list-items h3,p{
-    padding: 10px 10px;
+    padding: 0.6rem 0.6rem;
 }
 
 /* =================================================feature for customer section started============== */
@@ -164,7 +162,7 @@
 
 .feature-header {
     text-align: center;
-    padding: 40px 40px;
+    padding: 2.5rem 2.5rem;
     font-size: 1.5rem;
 }
 
@@ -172,13 +170,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap:3.1rem;
 }
 
 .card{
     height: 40vh;
-    width: 220px;
-    border-radius: 20px;
+    width: 21.2rem;
+    border-radius: 1.2rem;
     box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, .1);
 }
 
@@ -193,31 +191,31 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(245,56,6, .2);
-    margin: 40px auto 30px auto;
+    margin: 2.5rem auto 30px auto;
     border-radius: 100px;
 }
 .icon img{
     height: 8vh;
     width: 8vh;
-    top: 55px;
-    left: 80px;
+    top: 3.4rem;
+    left: 5rem;
 }
 .card-content{
     height: 14vh;
-    width: 220px;
+    width: 21.2rem;
     position: relative;
-    border-radius: 20px;
-    top: 10px;
+    border-radius: 1.2rem;
+    top: 0.6rem;
 }
 
 .card-content h4{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0.6rem;
 }
 
 .card-content p{
     text-align: center;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 .card-content:hover{
    background-color: var( --secondary);
@@ -226,7 +224,97 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .background-color{
+        height: 100vh;
+        background-image: url("../assets/bg.svg");
+    }
 
+    /* ================================================ navbar section============================== */
+.nav-logo{
+    display: flex;
+    height:20vh ;
+    /* gap: 10rem; */
+    justify-content: space-between;
+   
+}
+.logo img{
+    margin-top: 3.1rem;
+    margin-left: auto;
+    padding-left: 2rem;
+}
+
+.item{
+  display: none;
+}
+.nav-button{
+    padding-right: 2rem;
+}
+.nav-button button{
+    padding: 1rem 1.5rem;
+   font-size: 0.7rem;
+}
+
+.try-live-demo-container{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 170vh;
+    background-color: #542795;
+}
+
+.try-live-demo-left{
+    text-align: center;
+}
+.try-live-demo-left h2{
+    font-size: 2rem;
+}
+.try-live-demo-left p{
+    font-size: 1rem;
+    height:20vh;
+}
+
+.operating-system-container{
+    margin-top: 35rem;
+    height: 180vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 3.5rem;
+}
+
+.card-conainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3.1rem;
+}
+
+.feature-container{
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
